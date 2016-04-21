@@ -17,8 +17,19 @@
 </head>
 
 <body>
-    <h1 class="container">Welcome to the dice game!</h1>
-
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="diceOne"></div>
+                <p id="ranOne">#</p>
+            </div>
+            <div class="col-sm-6">
+                <div id="diceTwo"></div>
+                <p id="ranTwo">#</p>
+            </div>
+        </div>
+        <button onclick="ranNumber()" id="roll" class="btn btn-primary center-block">Roll</button>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
